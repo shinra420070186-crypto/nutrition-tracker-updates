@@ -1,0 +1,16 @@
+{
+  "versionName": "2.121",
+  "versionCode": 123,
+  "baseCode": 122,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.120-to-v2.121.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.121/v2.120-to-v2.121.patch",
+  "patchSha256": "86cdae223667c57f36feec9ea581f6378386d605b2fb708dd96cc4000c8bfe50",
+  "patchSize": 1290374,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.121/Nutrition-Tracker-v2.121.apk",
+  "apkSha256": "16986904b2814f542f4c302317b53940d4c9b4ccbf4735e00a521bf11474a268",
+  "apkSize": 5426084,
+  "notes": [
+    "In-app updates are here \u2014 future versions arrive as small patches",
+    "Update pill on Home: lime when a new version is ready"
+  ]
+}
