@@ -1,16 +1,16 @@
 {
-  "versionName": "2.121",
-  "versionCode": 123,
-  "baseCode": 122,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.120-to-v2.121.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.121/v2.120-to-v2.121.patch",
-  "patchSha256": "86cdae223667c57f36feec9ea581f6378386d605b2fb708dd96cc4000c8bfe50",
-  "patchSize": 1290374,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.121/Nutrition-Tracker-v2.121.apk",
-  "apkSha256": "16986904b2814f542f4c302317b53940d4c9b4ccbf4735e00a521bf11474a268",
-  "apkSize": 5426084,
+  "versionName": "2.122",
+  "versionCode": 124,
+  "baseCode": 123,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.121-to-v2.122.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.122/v2.121-to-v2.122.patch",
+  "patchSha256": "4f8df0f8bc65f29ed40ae9bbacd79725ca828b8f2a841d050a05b8e4279e35a3",
+  "patchSize": 1304235,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.122/Nutrition-Tracker-v2.122.apk",
+  "apkSha256": "d0dbd352a2a914f1170e34642b740644e93ce857546ec74d2caab4450df43f8d",
+  "apkSize": 5442468,
   "notes": [
-    "In-app updates are here \u2014 future versions arrive as small patches",
-    "Update pill on Home: lime when a new version is ready"
+    "TRK GOAT link: finish a workout in TRK GOAT and it appears here on its own \u2014 no typing, no internet, nothing leaves your phone",
+    "Settings \u2192 Connected apps shows the link status"
   ]
 }
