@@ -1,16 +1,16 @@
 {
-  "versionName": "2.124",
-  "versionCode": 126,
-  "baseCode": 125,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.123-to-v2.124.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.124/v2.123-to-v2.124.patch",
-  "patchSha256": "b950bf93b7b73fe176bd59071b7e2e32aae2dd4e9c91de7fd34c1dffcac4dad5",
-  "patchSize": 1308388,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.124/Nutrition-Tracker-v2.124.apk",
-  "apkSha256": "5f1640ab6bc1af606db6d2f7532cf37c95ad8b9001afbdf5f4c6e8bbd6f25cf2",
-  "apkSize": 5450660,
+  "versionName": "2.125",
+  "versionCode": 127,
+  "baseCode": 126,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.124-to-v2.125.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.125/v2.124-to-v2.125.patch",
+  "patchSha256": "aba4fe6e16c003b2314cf38f09d125d38c8969b36d49c933e749a6d87a665bc7",
+  "patchSize": 1313149,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.125/Nutrition-Tracker-v2.125.apk",
+  "apkSha256": "47ba8e790eaf9c1800d40928f9d92a7cc5ed796b6b12374211458ba4ccc2721f",
+  "apkSize": 5454756,
   "notes": [
-    "Talk naturally: correct a food's values in your own words \u2014 even as a complaint or a question \u2014 and the fix card opens with the change worked out for your Yes/No",
-    "No more empty promises: a chat reply that claims it changed something without doing it is now caught and rewritten honestly"
+    "Share my food data: a new Settings row exports your whole food book (names + nutrition values only) as one file you can send to anyone",
+    "Nothing else changes \u2014 no new permissions, your data stays on your phone until you share the file"
   ]
 }
