@@ -1,16 +1,16 @@
 {
-  "versionName": "2.126",
-  "versionCode": 128,
-  "baseCode": 127,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.125-to-v2.126.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.126/v2.125-to-v2.126.patch",
-  "patchSha256": "7afcc4743caf06e58da25349386173967d2a4e95a974e87723e598dfce23af77",
-  "patchSize": 1322967,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.126/Nutrition-Tracker-v2.126.apk",
-  "apkSha256": "9d4b403480970f26ca00909735a1775bfb2fa37ae1db3a6e1c16d936c25118ae",
-  "apkSize": 5458852,
+  "versionName": "2.127",
+  "versionCode": 129,
+  "baseCode": 128,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.126-to-v2.127.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.127/v2.126-to-v2.127.patch",
+  "patchSha256": "4d7dcc0610c683609d4048d14b0dccd9d9c54179ba8799f5002ed77420e55825",
+  "patchSize": 1318157,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.127/Nutrition-Tracker-v2.127.apk",
+  "apkSha256": "db1d6b3585ad7f6c83bfa329423d5ace2c6e00cc22e66c9f1ba2550123d5654e",
+  "apkSize": 5462948,
   "notes": [
-    "Packet foods: when a new packet food is created from text, its confirm sheet now offers an optional label photo \u2014 the photo's exact label values replace the AI estimate, and the food is saved from the label",
-    "Skipping the photo changes nothing: the estimate is used exactly as before"
+    "The packet-food row has a new look \u2014 a lime card with the label-photo button; how it works is unchanged",
+    "Settings: the Gemini and Groq key rows now link to where a free key comes from"
   ]
 }
