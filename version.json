@@ -1,16 +1,17 @@
 {
-  "versionName": "2.127",
-  "versionCode": 129,
-  "baseCode": 128,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.126-to-v2.127.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.127/v2.126-to-v2.127.patch",
-  "patchSha256": "4d7dcc0610c683609d4048d14b0dccd9d9c54179ba8799f5002ed77420e55825",
-  "patchSize": 1318157,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.127/Nutrition-Tracker-v2.127.apk",
-  "apkSha256": "db1d6b3585ad7f6c83bfa329423d5ace2c6e00cc22e66c9f1ba2550123d5654e",
+  "versionName": "2.128",
+  "versionCode": 130,
+  "baseCode": 129,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.127-to-v2.128.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.128/v2.127-to-v2.128.patch",
+  "patchSha256": "c07d71b76d18a23b04f738d39734c0a16b12bf001f5a8182483c6c773ad64d75",
+  "patchSize": 1321380,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.128/Nutrition-Tracker-v2.128.apk",
+  "apkSha256": "096ca595ba1acbb4fb84f5bfdf81b2c6a0a47d98c7edb4b9e86ff1b88e10c02e",
   "apkSize": 5462948,
   "notes": [
-    "The packet-food row has a new look \u2014 a lime card with the label-photo button; how it works is unchanged",
-    "Settings: the Gemini and Groq key rows now link to where a free key comes from"
+    "Fixed: logging a dish with a long sentence no longer creates a new food named with the whole sentence \u2014 your saved dish is used instead",
+    "A dish name written across two parts of your message now matches your saved dish correctly",
+    "The sentence-named food already in your book can no longer be picked by matching"
   ]
 }
