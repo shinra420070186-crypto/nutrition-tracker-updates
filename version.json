@@ -1,16 +1,16 @@
 {
-  "versionName": "2.123",
-  "versionCode": 125,
-  "baseCode": 124,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.122-to-v2.123.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.123/v2.122-to-v2.123.patch",
-  "patchSha256": "a25a79e0c0533153010d4c0dac4590629ef080fef8bcce70b0baf26e83daaecd",
-  "patchSize": 1309132,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.123/Nutrition-Tracker-v2.123.apk",
-  "apkSha256": "947a2d312280c824999b503dc6a781132a8037a6c085a6b0e974c00775e832f6",
-  "apkSize": 5446564,
+  "versionName": "2.124",
+  "versionCode": 126,
+  "baseCode": 125,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.123-to-v2.124.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.124/v2.123-to-v2.124.patch",
+  "patchSha256": "b950bf93b7b73fe176bd59071b7e2e32aae2dd4e9c91de7fd34c1dffcac4dad5",
+  "patchSize": 1308388,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.124/Nutrition-Tracker-v2.124.apk",
+  "apkSha256": "5f1640ab6bc1af606db6d2f7532cf37c95ad8b9001afbdf5f4c6e8bbd6f25cf2",
+  "apkSize": 5450660,
   "notes": [
-    "Fixed: the same food named two ways in one message (two spellings of one dal) no longer doubles in the meal \u2014 it merges into a single item with the right quantity",
-    "Fixed: a food you named can no longer silently vanish from a meal \u2014 the app now checks every named food is picked up, and tells you in the chat if one could not be"
+    "Talk naturally: correct a food's values in your own words \u2014 even as a complaint or a question \u2014 and the fix card opens with the change worked out for your Yes/No",
+    "No more empty promises: a chat reply that claims it changed something without doing it is now caught and rewritten honestly"
   ]
 }
