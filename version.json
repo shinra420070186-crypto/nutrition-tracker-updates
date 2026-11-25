@@ -1,16 +1,16 @@
 {
-  "versionName": "2.125",
-  "versionCode": 127,
-  "baseCode": 126,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.124-to-v2.125.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.125/v2.124-to-v2.125.patch",
-  "patchSha256": "aba4fe6e16c003b2314cf38f09d125d38c8969b36d49c933e749a6d87a665bc7",
-  "patchSize": 1313149,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.125/Nutrition-Tracker-v2.125.apk",
-  "apkSha256": "47ba8e790eaf9c1800d40928f9d92a7cc5ed796b6b12374211458ba4ccc2721f",
-  "apkSize": 5454756,
+  "versionName": "2.126",
+  "versionCode": 128,
+  "baseCode": 127,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.125-to-v2.126.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.126/v2.125-to-v2.126.patch",
+  "patchSha256": "7afcc4743caf06e58da25349386173967d2a4e95a974e87723e598dfce23af77",
+  "patchSize": 1322967,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.126/Nutrition-Tracker-v2.126.apk",
+  "apkSha256": "9d4b403480970f26ca00909735a1775bfb2fa37ae1db3a6e1c16d936c25118ae",
+  "apkSize": 5458852,
   "notes": [
-    "Share my food data: a new Settings row exports your whole food book (names + nutrition values only) as one file you can send to anyone",
-    "Nothing else changes \u2014 no new permissions, your data stays on your phone until you share the file"
+    "Packet foods: when a new packet food is created from text, its confirm sheet now offers an optional label photo \u2014 the photo's exact label values replace the AI estimate, and the food is saved from the label",
+    "Skipping the photo changes nothing: the estimate is used exactly as before"
   ]
 }
