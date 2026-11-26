@@ -1,15 +1,15 @@
 {
-  "versionName": "2.137",
-  "versionCode": 139,
-  "baseCode": 138,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.136-to-v2.137.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.137/v2.136-to-v2.137.patch",
-  "patchSha256": "f6decea234de3ebca19e919ad3adc0ee27f7f81b7f2635c6806fae71091ce7d7",
-  "patchSize": 1330210,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.137/Nutrition-Tracker-v2.137.apk",
-  "apkSha256": "2fb282fa909eb0a5f2e142f9cb1e8af71e8fea9f165aba25c8e57485e72a4ac3",
+  "versionName": "2.138",
+  "versionCode": 140,
+  "baseCode": 139,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.137-to-v2.138.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.138/v2.137-to-v2.138.patch",
+  "patchSha256": "894800a8b8b2969944a3ec644f5c0d929804b5c82e5026a10676dc572e1d528c",
+  "patchSize": 1343958,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.138/Nutrition-Tracker-v2.138.apk",
+  "apkSha256": "f4b1f6badd607da27614029da0d9d4e95539de9cfd33488459a7342f028bc3ae",
   "apkSize": 5672080,
   "notes": [
-    "Bug fix: the app could reject a log when the AI copied the pack-weight note into a food's name \u2014 the note is now stripped from any name the AI returns, before it is matched or checked, so counted logs like '5 wai wai' go straight to the confirm sheet at the right weight"
+    "Bug fix: a saved food could be rejected as a 'chat echo' when you logged it by a short name after the app itself had mentioned its full name \u2014 saved foods are now exempt from that check, so '5 wai wai' logs directly. The phantom-name protection stays fully active for anything not in your food book"
   ]
 }
