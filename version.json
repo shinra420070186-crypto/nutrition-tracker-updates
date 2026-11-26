@@ -1,16 +1,15 @@
 {
-  "versionName": "2.134",
-  "versionCode": 136,
-  "baseCode": 135,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.133-to-v2.134.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.134/v2.133-to-v2.134.patch",
-  "patchSha256": "4efbf55ea6058127d6efe9144fd1c708ecb47e1daa3723d3ae7db371521ba6ec",
-  "patchSize": 1350120,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.134/Nutrition-Tracker-v2.134.apk",
-  "apkSha256": "ff9b0f61dbb84a0ef8980d3b29d01633a469ff378ac07e4ac5886524e3f35ae6",
-  "apkSize": 5663888,
+  "versionName": "2.135",
+  "versionCode": 137,
+  "baseCode": 136,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.134-to-v2.135.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.135/v2.134-to-v2.135.patch",
+  "patchSha256": "f9e3a3a32b57c25f9d8d8cd94efe001c61ebe9a194f53f75cbf8c2e3b074cd89",
+  "patchSize": 1353234,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.135/Nutrition-Tracker-v2.135.apk",
+  "apkSha256": "01d142543b539a5220b83574cc999e9f1c5e21ba24427bfe729715c0b1aa9199",
+  "apkSize": 5667984,
   "notes": [
-    "Single-item logs now open as a New meal by default \u2014 joining the last meal is your tap on the switch, never the app's assumption",
-    "Counted foods (packets, pieces) never get a guessed weight again: the app asks once and remembers, and a label's serve size is now saved on the food whenever a label is applied"
+    "Pack weights are built in now: Wai Wai 50 g and Maggi 70 g resolve instantly, and for other branded packets the AI fills in the standard pack size \u2014 shown on the confirm sheet and saved on the food, so it's only ever worked out once"
   ]
 }
