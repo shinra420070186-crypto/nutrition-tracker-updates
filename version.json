@@ -1,15 +1,16 @@
 {
-  "versionName": "2.133",
-  "versionCode": 135,
-  "baseCode": 134,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.132-to-v2.133.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.133/v2.132-to-v2.133.patch",
-  "patchSha256": "f0091f9179c7abaa3b74769332a505e7036e6fbdd5bea7b16aa8028f64fffb24",
-  "patchSize": 1340278,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.133/Nutrition-Tracker-v2.133.apk",
-  "apkSha256": "31c76a0b1d53e4492957e2b4a5bfd643d0de06769432f846919d896d21f4afa6",
-  "apkSize": 5659792,
+  "versionName": "2.134",
+  "versionCode": 136,
+  "baseCode": 135,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.133-to-v2.134.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.134/v2.133-to-v2.134.patch",
+  "patchSha256": "4efbf55ea6058127d6efe9144fd1c708ecb47e1daa3723d3ae7db371521ba6ec",
+  "patchSize": 1350120,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.134/Nutrition-Tracker-v2.134.apk",
+  "apkSha256": "ff9b0f61dbb84a0ef8980d3b29d01633a469ff378ac07e4ac5886524e3f35ae6",
+  "apkSize": 5663888,
   "notes": [
-    "Workout cards are now a short record: the day name and 'Workout complete' \u2014 no exercise list, comparisons, targets or advice"
+    "Single-item logs now open as a New meal by default \u2014 joining the last meal is your tap on the switch, never the app's assumption",
+    "Counted foods (packets, pieces) never get a guessed weight again: the app asks once and remembers, and a label's serve size is now saved on the food whenever a label is applied"
   ]
 }
