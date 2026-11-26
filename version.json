@@ -1,17 +1,16 @@
 {
-  "versionName": "2.128",
-  "versionCode": 130,
-  "baseCode": 129,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.127-to-v2.128.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.128/v2.127-to-v2.128.patch",
-  "patchSha256": "c07d71b76d18a23b04f738d39734c0a16b12bf001f5a8182483c6c773ad64d75",
-  "patchSize": 1321380,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.128/Nutrition-Tracker-v2.128.apk",
-  "apkSha256": "096ca595ba1acbb4fb84f5bfdf81b2c6a0a47d98c7edb4b9e86ff1b88e10c02e",
+  "versionName": "2.129",
+  "versionCode": 131,
+  "baseCode": 130,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.128-to-v2.129.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.129/v2.128-to-v2.129.patch",
+  "patchSha256": "ff6c4b9f70bb34cec9f3cc4154f0bd6fb1d09537dcd539f63e4f4a29bf8d19ca",
+  "patchSize": 1311316,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.129/Nutrition-Tracker-v2.129.apk",
+  "apkSha256": "803379646ae5684ce609e020fc34b167456a7cbade2e605531365bf8711615bc",
   "apkSize": 5462948,
   "notes": [
-    "Fixed: logging a dish with a long sentence no longer creates a new food named with the whole sentence \u2014 your saved dish is used instead",
-    "A dish name written across two parts of your message now matches your saved dish correctly",
-    "The sentence-named food already in your book can no longer be picked by matching"
+    "Weight chart now scales to your weigh-ins, so your progress actually moves \u2014 the goal shows as '75 goal \u2191' until you get near it",
+    "'Log today's weight' now sits above the weight history, so it never sinks as you add more weigh-ins"
   ]
 }
