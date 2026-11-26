@@ -1,16 +1,18 @@
 {
-  "versionName": "2.129",
-  "versionCode": 131,
-  "baseCode": 130,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.128-to-v2.129.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.129/v2.128-to-v2.129.patch",
-  "patchSha256": "ff6c4b9f70bb34cec9f3cc4154f0bd6fb1d09537dcd539f63e4f4a29bf8d19ca",
-  "patchSize": 1311316,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.129/Nutrition-Tracker-v2.129.apk",
-  "apkSha256": "803379646ae5684ce609e020fc34b167456a7cbade2e605531365bf8711615bc",
-  "apkSize": 5462948,
+  "versionName": "2.130",
+  "versionCode": 132,
+  "baseCode": 131,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.129-to-v2.130.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.130/v2.129-to-v2.130.patch",
+  "patchSha256": "20bfdf360c80b69a7fa3848c82bf40a9a7f64014e282b8c33ec48e224dd012cc",
+  "patchSize": 1327300,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.130/Nutrition-Tracker-v2.130.apk",
+  "apkSha256": "cc39fe6a382c951b292df70cf2ee5adda3c6ec7922efcbdcccf53ae58ff8ad84",
+  "apkSize": 5467044,
   "notes": [
-    "Weight chart now scales to your weigh-ins, so your progress actually moves \u2014 the goal shows as '75 goal \u2191' until you get near it",
-    "'Log today's weight' now sits above the weight history, so it never sinks as you add more weigh-ins"
+    "Meal confirm sheet: an outside tap no longer dismisses it \u2014 only Cancel or Confirm closes it, so a pending log can't be lost to a stray tap.",
+    "Mix veg sabzi is now a built-in food with fixed values (90 kcal per 100 g) \u2014 no more AI estimates for it.",
+    "Settings: the 'No key? Get one free\u2026' lines now show only when that provider has no key saved.",
+    "Fixed: onboarding now actually appears on a fresh install (the app's own welcome message was making new installs look already used)."
   ]
 }
