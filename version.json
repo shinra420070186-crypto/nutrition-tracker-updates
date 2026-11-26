@@ -1,15 +1,15 @@
 {
-  "versionName": "2.136",
-  "versionCode": 138,
-  "baseCode": 137,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.135-to-v2.136.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.136/v2.135-to-v2.136.patch",
-  "patchSha256": "a2f0f6c4d36e415e4f7b1d619f5493ff18eb64a64d659c5702c6cefdf7a4aed1",
-  "patchSize": 1353935,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.136/Nutrition-Tracker-v2.136.apk",
-  "apkSha256": "ade59c481994412fd93d424271b28e420f6267a9d120528995130fb99f160850",
+  "versionName": "2.137",
+  "versionCode": 139,
+  "baseCode": 138,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.136-to-v2.137.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.137/v2.136-to-v2.137.patch",
+  "patchSha256": "f6decea234de3ebca19e919ad3adc0ee27f7f81b7f2635c6806fae71091ce7d7",
+  "patchSize": 1330210,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.137/Nutrition-Tracker-v2.137.apk",
+  "apkSha256": "2fb282fa909eb0a5f2e142f9cb1e8af71e8fea9f165aba25c8e57485e72a4ac3",
   "apkSize": 5672080,
   "notes": [
-    "Fixed for good: the AI can no longer ask you what a packet weighs \u2014 that question belongs to the app. Counted logs always come through as logs now, and if a weight question is ever pending, your answer is recognised and stored by the app itself, whichever way the question was worded"
+    "Bug fix: the app could reject a log when the AI copied the pack-weight note into a food's name \u2014 the note is now stripped from any name the AI returns, before it is matched or checked, so counted logs like '5 wai wai' go straight to the confirm sheet at the right weight"
   ]
 }
