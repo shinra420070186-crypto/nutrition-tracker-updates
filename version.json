@@ -1,17 +1,18 @@
 {
-  "versionName": "2.131",
-  "versionCode": 133,
-  "baseCode": 132,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.130-to-v2.131.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.131/v2.130-to-v2.131.patch",
-  "patchSha256": "c32b1bff65cd059f9aa107e11012c0835bc9bf9fb0249dba79569d265eae2c58",
-  "patchSize": 1520658,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.131/Nutrition-Tracker-v2.131.apk",
-  "apkSha256": "8e0d272d4dfefde283c229be92d12d35d50f030a092f047c981d244e0da13e50",
-  "apkSize": 5655696,
+  "versionName": "2.132",
+  "versionCode": 134,
+  "baseCode": 133,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.131-to-v2.132.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.132/v2.131-to-v2.132.patch",
+  "patchSha256": "3645cc9516eb0510c9d937aed30a04c7bb28f8a9c67575586f103f6b4038491a",
+  "patchSize": 1347829,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.132/Nutrition-Tracker-v2.132.apk",
+  "apkSha256": "b7258ebb099b021b5fca346300df59fd2fe5a8b56802744b377dd25d8ff426fe",
+  "apkSize": 5663888,
   "notes": [
-    "New onboarding: diet, about-you and goal screens redesigned",
-    "Goal pace slider with weekly-rate warnings and a daily steps guide",
-    "Settings \u2192 Your profile gets the same new design"
+    "Bottom bar now hides during onboarding",
+    "Protein is now your pick: 1.6\u20132.2 g/kg selector in the goal and profile screens, with advice that reacts to your goal",
+    "Goal weight: finer 0.5 kg steps, and tap the number to type an exact goal",
+    "Targets card: the Carbs tile is now plain, like Protein and Fat"
   ]
 }
