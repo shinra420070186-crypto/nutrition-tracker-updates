@@ -1,15 +1,15 @@
 {
-  "versionName": "2.135",
-  "versionCode": 137,
-  "baseCode": 136,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.134-to-v2.135.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.135/v2.134-to-v2.135.patch",
-  "patchSha256": "f9e3a3a32b57c25f9d8d8cd94efe001c61ebe9a194f53f75cbf8c2e3b074cd89",
-  "patchSize": 1353234,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.135/Nutrition-Tracker-v2.135.apk",
-  "apkSha256": "01d142543b539a5220b83574cc999e9f1c5e21ba24427bfe729715c0b1aa9199",
-  "apkSize": 5667984,
+  "versionName": "2.136",
+  "versionCode": 138,
+  "baseCode": 137,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.135-to-v2.136.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.136/v2.135-to-v2.136.patch",
+  "patchSha256": "a2f0f6c4d36e415e4f7b1d619f5493ff18eb64a64d659c5702c6cefdf7a4aed1",
+  "patchSize": 1353935,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.136/Nutrition-Tracker-v2.136.apk",
+  "apkSha256": "ade59c481994412fd93d424271b28e420f6267a9d120528995130fb99f160850",
+  "apkSize": 5672080,
   "notes": [
-    "Pack weights are built in now: Wai Wai 50 g and Maggi 70 g resolve instantly, and for other branded packets the AI fills in the standard pack size \u2014 shown on the confirm sheet and saved on the food, so it's only ever worked out once"
+    "Fixed for good: the AI can no longer ask you what a packet weighs \u2014 that question belongs to the app. Counted logs always come through as logs now, and if a weight question is ever pending, your answer is recognised and stored by the app itself, whichever way the question was worded"
   ]
 }
