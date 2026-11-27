@@ -1,15 +1,15 @@
 {
-  "versionName": "2.138",
-  "versionCode": 140,
-  "baseCode": 139,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.137-to-v2.138.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.138/v2.137-to-v2.138.patch",
-  "patchSha256": "894800a8b8b2969944a3ec644f5c0d929804b5c82e5026a10676dc572e1d528c",
-  "patchSize": 1343958,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.138/Nutrition-Tracker-v2.138.apk",
-  "apkSha256": "f4b1f6badd607da27614029da0d9d4e95539de9cfd33488459a7342f028bc3ae",
+  "versionName": "2.139",
+  "versionCode": 141,
+  "baseCode": 140,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.138-to-v2.139.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.139/v2.138-to-v2.139.patch",
+  "patchSha256": "a1bb1f135356af5c1cc2e8fee028669620c8f9e761035a277c26f6edd1846034",
+  "patchSize": 1349322,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.139/Nutrition-Tracker-v2.139.apk",
+  "apkSha256": "9c3fbac7cc3b46200ce3dcda9ce0214818724700dd0badc8c4b2406f637e08a9",
   "apkSize": 5672080,
   "notes": [
-    "Bug fix: a saved food could be rejected as a 'chat echo' when you logged it by a short name after the app itself had mentioned its full name \u2014 saved foods are now exempt from that check, so '5 wai wai' logs directly. The phantom-name protection stays fully active for anything not in your food book"
+    "Bug fix: if the AI's parse missed a food you named with a shortened name (like 'mah ki dal' for your saved 'mah chane ki daal'), the meal could open silently short. The app's coverage check now recognises a name missing at most one word when it can only mean one food in your book, forces the parse to include it, and names it in the chat if it still can't"
   ]
 }
