@@ -1,15 +1,15 @@
 {
-  "versionName": "2.139",
-  "versionCode": 141,
-  "baseCode": 140,
-  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.138-to-v2.139.patch",
-  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.139/v2.138-to-v2.139.patch",
-  "patchSha256": "a1bb1f135356af5c1cc2e8fee028669620c8f9e761035a277c26f6edd1846034",
-  "patchSize": 1349322,
-  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.139/Nutrition-Tracker-v2.139.apk",
-  "apkSha256": "9c3fbac7cc3b46200ce3dcda9ce0214818724700dd0badc8c4b2406f637e08a9",
+  "versionName": "2.140",
+  "versionCode": 142,
+  "baseCode": 141,
+  "patchUrl": "https://raw.githubusercontent.com/shinra420070186-crypto/nutrition-tracker-updates/main/patches/v2.139-to-v2.140.patch",
+  "patchMirrorUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.140/v2.139-to-v2.140.patch",
+  "patchSha256": "1a0dfb06956e6ca07737fe46443c27063d27ecf4ed92b6151de7774a119f4a70",
+  "patchSize": 1338570,
+  "apkUrl": "https://github.com/shinra420070186-crypto/nutrition-tracker-updates/releases/download/v2.140/Nutrition-Tracker-v2.140.apk",
+  "apkSha256": "f3ef35c493bdc2f7d9b9481e57211d4b9c525150341da144c67813dda32073c7",
   "apkSize": 5672080,
   "notes": [
-    "Bug fix: if the AI's parse missed a food you named with a shortened name (like 'mah ki dal' for your saved 'mah chane ki daal'), the meal could open silently short. The app's coverage check now recognises a name missing at most one word when it can only mean one food in your book, forces the parse to include it, and names it in the chat if it still can't"
+    "Bug fix: logging a plain ingredient that appears inside a saved dish's name (like 'carrot' in 'pasta with carrot tomato onion') wrongly logged the whole dish. The food matcher now only binds a dish when your word is its first or last word \u2014 an ingredient in the middle of a name can no longer pull in the whole dish. Bonus: 'oil' now finds Cooking oil instead of matching the word inside Chapati's description"
   ]
 }
